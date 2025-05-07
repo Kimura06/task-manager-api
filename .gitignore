@@ -38,3 +38,10 @@ ENV/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Игнорировать папки __pycache__
+__pycache__/
+*.pyc
+
+# Игнорировать настройки PyCharm
+.idea/
